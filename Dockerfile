@@ -1,12 +1,12 @@
 ##
-# NAME             : julienbreux/synologygandidyndns
+# NAME             : julienbreux/synology-gandi-dynamic-dns
 # VERSION          : 1
 # DOCKER-VERSION   : 1.11
 # DESCRIPTION      : Synology Gandi dynamic DNS updater.
 # DEPENDENCY       : none
-# TO_BUILD         : docker build --pull=true --no-cache --rm -t julienbreux/synologygandidyndns:latest .
-# TO_SHIP          : docker push julienbreux/synologygandidyndns:latest
-# TO_RUN           : docker run -ti --rm julienbreux/synologygandidyndns:latest
+# TO_BUILD         : docker build --pull=true --no-cache --rm -t julienbreux/synology-gandi-dynamic-dns:latest .
+# TO_SHIP          : docker push julienbreux/synology-gandi-dynamic-dns:latest
+# TO_RUN           : docker run -ti --rm julienbreux/synology-gandi-dynamic-dns:latest
 ##
 
 FROM python:3-slim
